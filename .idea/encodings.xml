@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spirng-aop-03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spirng-aop-03/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aop-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aop-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aop-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aop-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-atuo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-atuo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-allauto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-allauto/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-xml-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-xml-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-java-pritice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-java-pritice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-quanzhujie/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-quanzhujie/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-quanzhujie01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-quanzhujie01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-bank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-bank/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-ioc-aop-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-ioc-aop-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-ioc-aop-test2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-ioc-aop-test2/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

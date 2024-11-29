@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--1.单个构造注入
+      1.1   将他们全部都存放在ioc容器-->
+    <bean id="123" class="ioctest.ioc_02.UserDao"/>
+    <bean id="321" class="ioctest.ioc_02.UserService">
+<!--        构造参数传值di的配置
+            value 是直接属性值
+            ref是应用其他的bean的id值-->
+        <constructor-arg ref="123"/>
+    </bean>
+    <bean id="userser2" class="ioctest.ioc_02.UserService2">
+<!--        bean中实例的都是无参的构造，若类中没有无参构造则必须给有参构造赋值
+-->
+<!--        <constructor-arg ref="123"/>-->
+<!--        <constructor-arg value="16"/>-->
+<!--        <constructor-arg value="大傻"/>-->
+<!--        或者直接使用name属性为参数赋值-->
+        <constructor-arg name="userDao" ref="123"/>
+        <constructor-arg name="age" value="17"/>
+        <constructor-arg name="name" value="伍六七"/>
+<!--        或者可以用下角标的方法给value赋值-->
+
+
+    </bean>
+    <!--        set方法注入-->
+<!--    出发set方法进行注入-->
+    <bean id="movie" class="ioctest.ioc_03.Moive"/>
+    <bean id="movieset" class="ioctest.ioc_03.SetMovie">
+        <property name="moive" ref="movie"/>
+        <property name="cost" value="36"/>
+        <property name="name" value="战痕2"/>
+    </bean>
+</beans>

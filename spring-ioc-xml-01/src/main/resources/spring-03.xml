@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="java01" class="ioctest.ioc_04.JavaBean" init-method="init" destroy-method="claar"/>
+<!--   init-method     destory-method  指定初始化方法和销毁方法   Springioc容器就会在对应的时间回调对应的方法，我们就可以在其中写对应的业务-->
+<bean id="java02" class="ioctest.ioc_04.JavaBean2" scope="prototype"/>
+<!--    声明一个组件信息，默认就是单例模式，一个<bean    -beanDefinition   组件对象>-->
+<!--    scope 表示单例或多例值-->
+
+<!--    使用工厂方法，返回的就是getObject返回的标识
+          class   -》 继承factoryBean的标准化工厂-->
+    <bean id="java003" class="ioctest.ioc_05.JvaaBean_Factory">
+        <property name="value" value="张二狗"></property>
+    </bean>
+</beans>
